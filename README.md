@@ -14,5 +14,6 @@ conda activate gnn-ddi  # replace with the name defined in your .yml file
 
 python src/main.py --model "gcn_skipconnection" --dataset "biosnapddi"
 
-
+model choices: ["gcn_ngnn_graphconv", "sage_ngnn", "sage_skipconnection", "gcn", "sage", "gat_mlp", "gcn_skipconnection", "sage_nodefeature_mlp", "sage_mlp_virtual_node","magcn"]
+data choices: ["ogbl-ddi", "drugbankddi","biosnapddi"]
 For more information see the args help.
